@@ -20,7 +20,7 @@ ReactDOM.render(
     <ul>
       <li>Biriyani</li>
       <li>Chicken</li>
-      <li>Freah juice</li>
+      <li>Fresh juice</li>
     </ul>
   </div>,
   document.getElementById("root")
