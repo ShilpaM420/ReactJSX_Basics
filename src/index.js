@@ -37,3 +37,15 @@ ReactDOM.render(
   </div>,
   document.getElementById("root1")
 );
+
+const name = "Shilpa";
+const currentDate = new Date();
+const year = currentDate.getFullYear();
+
+ReactDOM.render(
+  <div>
+    <p>Created by {name}</p>
+    <p>Copyright {year}</p>
+  </div>,
+  document.getElementById("root2")
+);
